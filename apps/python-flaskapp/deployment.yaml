@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: flaskapp
-        image: jamencidor/flaskapp:9.75aca72   # <-- Jenkins edits ONLY this line
+        image: jamencidor/flaskapp:9.75aca72
         ports:
         - containerPort: 5000
