@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flaskapp
+  namespace: flaskapp
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: flaskapp
+  template:
+    metadata:
+      labels:
+        app: flaskapp
+    spec:
+      containers:
+      - name: flaskapp
+        image: jamencidor/flaskapp:9.75aca72   # <-- Jenkins edits ONLY this line
+        ports:
+        - containerPort: 5000
