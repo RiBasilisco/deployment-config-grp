@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: python-flaskapp-grp
-  INVALID_YAML_KEY::: {{unbalanced_syntax
   namespace: flaskapp
 spec:
   replicas: 2
