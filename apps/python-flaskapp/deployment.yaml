@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: python-flaskapp-grp
-        image: jamencidor/flaskapp:9.75aca72
+        image: jamencidor/flaskapp:13.b4de09b
         ports:
         - containerPort: 5000
         env:
