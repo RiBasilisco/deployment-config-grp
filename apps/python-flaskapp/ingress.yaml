@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: python-flaskapp
+  name: python-flaskapp-grp
   namespace: flaskapp
 spec:
   ingressClassName: nginx
