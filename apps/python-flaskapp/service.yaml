@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: python-flaskapp
+  name: python-flaskapp-grp
   namespace: flaskapp
 spec:
   selector:
-    app: python-flaskapp
+    app: python-flaskapp-grp
   ports:
   - port: 80
     targetPort: 5000
