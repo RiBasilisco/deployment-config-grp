@@ -1,11 +1,11 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: python-flaskapp
+  name: python-flaskapp-grp
   namespace: flux-system
 spec:
   interval: 30s
-  path: ./apps/python-flaskapp
+  path: ./apps/python-flaskapp-grp
   prune: true
   sourceRef:
     kind: GitRepository
