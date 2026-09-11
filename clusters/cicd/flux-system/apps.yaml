@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 30s
-  path: ./apps/python-flaskapp-grp
+  path: ./apps/python-flaskapp
   prune: true
   sourceRef:
     kind: GitRepository
