@@ -12,6 +12,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: python-flaskapp
+            name: python-flaskapp-grp
             port:
               number: 80
